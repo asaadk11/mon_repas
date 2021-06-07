@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Mon repas</title>
+        <link rel="stylesheet" href="../css/mdp_oublie.css"/>
+        <link rel="icon" type="image/png" sizes="18x18" href="../images/logo.png">
+        <link href="../vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+   
+    <body>
+        <div class="page-header">
+            <a href="login.php" id="retour à la page d'accueuil" ><img class="logo"
+            src="../images/logo.png" alt="Logo Mon Repas"></a>
+            <a href="https://github.com/asaadk11" id="retour à la page git-hub" target="_blank" ><img class="git-hub"
+            src="../images/github.png" alt="Logo GitHub"></a>
+            <p id="titre" class="display-6"  >Mon repas</p>
+        </div>
+    <div class="warning">
+    <form action="../traitement/mdp_oublie.php" method="post">
+    <br>
+   
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">email</span>
+    <input type="text" placeholder="mail@mail.com" name="e-mail" class="form-control" required><br>
+    </div>
+
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">saisissez votre réponse secrète</span>
+    <input type="password" placeholder="**********" name="reponse" class="form-control" required><br>
+    </div>
+
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">tapez le nouveau mot de passe</span>
+    <input type="password" placeholder="**********" name="pass" class="form-control" required><br>
+    </div>
+
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">retaper le nouveau mdp</span>
+    <input type="password" placeholder="**********" name="pass_word2" class="form-control" required><br>
+    </div>
+
+    <input type="button" value="Sign IN" onclick="submit()" class="btn btn-dark">
+    </form>
+    </div>
+    
+
+    </body>
+</html>
