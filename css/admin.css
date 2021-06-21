@@ -31,18 +31,6 @@
         overflow-y: hidden;
 }
 
-#btn1{
-    padding-left : 130px;
-    padding-right : 130px;
-}
-#btn2{
-    padding-left : 120px;
-    padding-right : 120px;
-}
-#btn3{
-    padding-left : 135px;
-    padding-right : 135px;
-}
 
 body{
         background-color : #f8f9fa!important;
