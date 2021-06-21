@@ -33,7 +33,7 @@
 
         <div class="container-fluid">
             <div class="warning">
-                <form action="change.php" method="post">
+                <form action="../traitement/change.php" method="post">
                     <h4>Changer le mot de passe : </h4><br>
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">Mot de passe actuel : </span>
