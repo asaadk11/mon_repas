@@ -55,7 +55,7 @@ $conn = mysqli_connect($servername,$username,$password,$database);
   </thead>
   <tbody>
     <?php
-        $sql = $conn->query("SELECT nom_ingrédient,quantite FROM quantité WHERE nom_recette='Sorbet minute à la fraise au Vitamix' ");
+        $sql = $conn->query("SELECT nom_ingrédient,quantite FROM quantité WHERE nom_recette='Tarte au chocolat' ");
         while($row = $sql->fetch_array()){
        echo '<tr>';
        echo '<th scope="row">'.$row['nom_ingrédient'].'</th>';
