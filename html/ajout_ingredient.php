@@ -26,8 +26,8 @@
                 ?>
                 
                 <div id="myDropdown" class="dropdown-content">
-                <a href="change_password.php">Changer de mot de passe</a>
-                <a href="connexion_admin.php">Déconnexion</a>
+                <a href="changer_mdp.php">Changer de mot de passe</a>
+                <a href="login.php">Déconnexion</a>
                 </div>
             </div> 
         <div class="container-fluid">
