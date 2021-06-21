@@ -27,23 +27,25 @@
                 ?>
                  <div id="myDropdown" class="dropdown-content">
                     <a href="changer_mdp.php">Changer de mot de passe</a>
+                    <a href="traitement_recettes.php">Gestion recette </a>
+                    <a href="traitement_ingrédients.php">Gestion ingrédient</a>
+                    <a class="nav-link disabled">Gestion admins</a>
                     <a href="login.php">Déconnexion</a>
                 </div>
             </div> 
         <div class="container-fluid">
+<br>
            <div class="warning">
                 <div class="form1">
-                <form method="post" action="ajout_admin.php">
-                <input type="button" value="ajouter un admin" onclick="submit()" id="btn1" class="btn btn-dark">
-                </form>
-                <br>
+                    <form method="post" action="traitement_suppression_admin.php">
+                        <input type="button" value="supprimer un admin" onclick="submit()" id="btn1" class="btn btn-dark">
+                    </form>
                 </div>
                 <div class="form2">
-                <form method="post" action="traitement_suppression_admin.php">
-                <input type="button" value="supprimer un admin" onclick="submit()" id ="btn2" class="btn btn-dark">
-                </form>
-                
-            </div>
+                    <form method="post" action="ajout_admin.php">
+                        <input type="button" value="ajouter un admin" onclick="submit()" id ="btn2" class="btn btn-dark">
+                    </form>
+                </div>
         </div>
           
     </body>
