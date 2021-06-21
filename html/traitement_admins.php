@@ -34,7 +34,7 @@
                 </div>
             </div> 
         <div class="container-fluid">
-<br>
+
            <div class="warning">
                 <div class="form1">
                     <form method="post" action="traitement_suppression_admin.php">
