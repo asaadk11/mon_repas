@@ -1,15 +1,6 @@
 Ingrédients
-Fraise glacée
-Crème ou yaourt
-Miel ou autre sucre
-Basilic
+n-Fraise glacée
+n-Crème ou yaourt
+o-sucre
+n-Basilic
 
-Réalisation
-1
-Déposez la crème ou le yaourt dans le bol du vitamix.
-
-2
-Ajoutez les fraises et les autres ingrédients.
-
-3
-Passez en mode turbo pendant 30 secondes.
